@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans:400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet" />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+
+    <title>Billy's Café & Kiosk</title>
+
+    <style>
+        .title-container {
+            position: relative;
+            width: 91%;
+            height: auto;
+            min-height: 20%;
+            max-height: 30%;
+            margin: -15px;
+            padding: 10px 45px 0px 20px;
+            background: linear-gradient(#e9d9c6, white 5rem);
+        }
+
+        .title {
+            font-family: "Encode Sans", sans-serif;
+            font-weight: bolder;
+            font-size: 20px;
+            padding: 10px;
+            margin-left: 2px;
+        }
+
+        a {
+            color: #002e42;
+            text-decoration: none;
+            background-color: none;
+            box-shadow: inset 0 -0.25em hsl(55, 100%, 75%);
+        }
+
+        .ratings h2{
+            color:rgb(122, 122, 122);
+            text-align: center;
+            font-family: "Carter One", sans-serif;
+            font-size: 16px;
+            font-weight: 200;
+            padding: 10px;
+        }
+
+        .blogpost-body {
+            position: absolute;
+            width: 91%;
+            font-family: "Encode Sans", sans-serif;
+            font-size: 18px;
+            line-height: 32px;
+            text-align: justify;
+            background-color: white;
+            margin: 5px;
+            padding: 10px 10px 20px 2px;
+        }
+
+        .img-transport {
+            size: 20px;
+        }
+
+        .fig {
+            display: block;
+            text-align: center;
+            font-family: "Encode Sans", sans-serif;
+            font-size: 16px;
+            font-style: italic;
+            font-weight: 500;
+            line-height: 24px;
+            margin: 20px 0px 20px 0px;
+            color: rgb(138, 138, 138);
+            box-shadow: 10px 5px rgba(255, 192, 203, 0.521) inset;
+        }
+
+        /* scroll bar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgb(175, 175, 175); 
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(122, 122, 122); 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title-container">
+        <div class="title">
+            <h1><a href="#1" style="cursor: default;">
+                Billy's Café & Kiosk
+            </a></h1>
+        </div>
+        <div class="ratings">
+            <h2 style="font-size: 100px; color: peachpuff; position: absolute; margin: -50px 0px 0px -40px;" > “ </h2> 
+            <h2>
+                <b style="color: rgb(50,50,50)">DASHA </b> The problem of choice. <br/>
+                <b style="color: rgb(50,50,50)">STEVIE </b> Their season's special menu is a must! <br/>
+            </p>
+            <p style="font-size: 100px; color: palegoldenrod; position: absolute; margin: -70px 0px 0px 415px;" > ” </p> 
+        </div>
+    </div>
+    <div class="blogpost-body">        
+
+        <p style="text-indent: 10px;"> 
+            Now when I am trying to write this story I can’t say that I remember that day. Only two things: it was cold and we had a Unit test of Principles of Databases. Very nice beginning, isn’t it?
+        </p>
+        <p style="text-indent: 10px;">
+            After the test, I decided to join Stevie’s “coffee tour”. He told that the place where we were going was considered the place with the best coffee in Minich. The best coffee in my life I tried in Minsk. Okay, let's see how good Munich's is.
+        </p>
+
+        <figure class="fig">
+            <img src="https://user-images.githubusercontent.com/75331882/105734115-9784d300-5f32-11eb-86c6-12b407aa0936.jpg"
+                alt="Billy's Café & Kiosk" style="max-width: 100%;" />
+            <figcaption>
+                Really cozy place looks promising
+            </figcaption>
+        </figure>
+
+        <p style="text-indent: 10px;">
+            Although it was already winter day the “Fall Specials” were suggested. I could not decide between “pumpkin spice latte” and “white choc cortado”. Actually, I am not really a big fan of pumpkin but I am a fan of “How I met your mother” and the pumpkin latte is Marshall’s favorite beverage. It was the hardest decision of my life :) But agree “white choc cortado” sounds fascinating. Of course, there were “usual” cappuccino, latte, and nice-looking desserts.
+        </p>
+
+        <figure class="fig">
+            <img src="https://user-images.githubusercontent.com/75331882/105734180-a7041c00-5f32-11eb-84c2-f499577c74dc.jpg"
+                alt="Fall specials" style="max-width: 100%;" />
+            <figcaption>
+                I will definitely try the pumpkin latte next autumn
+            </figcaption>
+        </figure>
+
+        <p style="text-indent: 10px;">
+            By the way, 100 points go to <del>Gryffindor</del> Billy's Café & Kiosk! You know why? You will never freeze waiting for your coffee.
+        </p>
+
+        <figure class="fig" style="box-shadow: none;">
+            <img src="https://user-images.githubusercontent.com/75331882/105734223-b2574780-5f32-11eb-9361-ad68b9c643d2.jpg"
+                alt="Warm lantern in front of the café" style="max-width: 100%;" />
+        </figure>
+
+        <p style="text-indent: 10px;">
+            What about coffee itself? It was definitely nice, very creamy with a citrus taste. Actually, because of COVID-19 Billy's Café & Kiosk is the only place where I tried coffee so far, so I can say that they make the best coffee in Munich. If you don’t trust me, go there and check :) Thanks Stevie for bringing me there.
+        </p>
+
+        <p style="font-weight: 500; text-align: right;">&mdash; Dasha</p>
+
+        <hr>
+        <p><b>Read more:</b></p>
+        <ul>
+            <li><a href="https://www.instagram.com/billyskiosk/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/billyskiosk/">Facebook</a></li>
+        </ul> 
+        </br>
+        
+        <p><b>How to get there:</b></p>
+        <p style="text-align: center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2661.852107179683!2d11.578941315528434!3d48.15165637922446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7594d59f104b%3A0x7892089790dc725d!2sBilly&#39;s%20Caf%C3%A9%20%26%20Kiosk!5e0!3m2!1sen!2sde!4v1611598690746!5m2!1sen!2sde" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </p>
+        <p style="font-size: 14px; color: gray; margin-bottom: -10px;">
+            &copy; 2021 Liam, Stevie and Dasha
+        </p>
+
+    </div>
+</body>
+</html>
