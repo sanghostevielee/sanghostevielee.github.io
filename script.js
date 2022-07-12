@@ -1,5 +1,5 @@
 mapboxgl.accessToken =
-    "pk.eyJ1IjoiZGFzaGxhcHBvIiwiYSI6ImNqbjJ3aHhjZTBwZXozcGw4eW90YTY5cW0ifQ.B30zBLfnXNoQA6Wt452TwQ";
+    "pk.eyJ1IjoiZGFzaGxhcHBvIiwiYSI6ImNsNTlqejllZTBlY3YzYnA0bnZtZjdlMjMifQ.vFYkFYZNzW6u0VRAdVsypg";
 
 // Add the map to the page
 
